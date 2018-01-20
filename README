@@ -1,7 +1,8 @@
 This is my fork of the wnodom-vim-environment repository. Here are the changes I've made:
 - F7/F8 tab switching shortcuts
 - disabled colorcolumn as well as fugitive#head stuff that wasn't working for me
-- F5 save current file, stall process shortcut
+- F5 save current file & stall process shortcut
+
 
 Original README
 Welcome to Bill Odom's Vim environment. Here's how to use it:
