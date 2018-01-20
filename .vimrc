@@ -5,6 +5,13 @@
 "
 
 """
+""" My stuff
+"""
+:noremap <F5> :w<CR><c-z>
+:inoremap <F5> <ESC>:w<CR><c-z>
+
+
+"""
 """ Basic Settings
 """
 
