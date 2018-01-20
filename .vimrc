@@ -7,8 +7,10 @@
 """
 """ My stuff
 """
-:noremap <F5> :w<CR><c-z>
+:nnoremap <F5> :w<CR><c-z>
 :inoremap <F5> <ESC>:w<CR><c-z>
+:nnoremap <F7> :tabp<CR>
+:nnoremap <F8> :tabn<CR>
 
 
 """
@@ -374,27 +376,27 @@ vnoremap <BS> d
 inoremap <F2>   <C-R>=strftime("%c")<CR>
 nmap     <F2>   a<F2><Esc>
 
-" F7 formats the current/highlighted paragraph.
+" F9 formats the current/highlighted paragraph.
 "
 " XXX: Consider changing this to gwap to maintain logical cursor position.
 "
-nnoremap <F7>   gqap
-inoremap <F7>   <C-O>gqap
-vnoremap <F7>   gq
+nnoremap <F9>   gqap
+inoremap <F9>   <C-O>gqap
+vnoremap <F9>   gq
 
-" Q does the same thing as <F7> (except in Insert mode, of course). I'm
+" Q does the same thing as <F9> (except in Insert mode, of course). I'm
 " retraining myself to use Q instead of a function key, since it's kind
 " of a de facto standard keystroke.
 "
 nnoremap Q  gqap
 xnoremap Q  gq
 
-" Shift+F7 joins all lines of the current paragraph or highlighted block
+" Shift+F9 joins all lines of the current paragraph or highlighted block
 " into a single line.
 "
-nnoremap <S-F7>  vipJ
-inoremap <S-F7>  <Esc>vipJi
-vnoremap <S-F7>  J
+nnoremap <S-F9>  vipJ
+inoremap <S-F9>  <Esc>vipJi
+vnoremap <S-F9>  J
 
 " Tab/Shift+Tab indent/unindent the highlighted block (and maintain the
 " highlight after changing the indentation). Works for both Visual and Select
