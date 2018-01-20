@@ -17,7 +17,7 @@ set shortmess+=I        " Don't show the Vim welcome screen.
 
 set autoindent          " Copy indent from current line for new line.
 set nosmartindent       " 'smartindent' breaks right-shifting of # lines.
-set breakindent         " Indent soft-wrapped lines same as beginning of line
+"set breakindent         " Indent soft-wrapped lines same as beginning of line
 
 set hidden              " Keep changed buffers without requiring saves.
 
@@ -59,7 +59,7 @@ set nowrapscan          " Don't allow searches to wrap around EOF.
 
 set nocursorline        " Don't highlight the current screen line...
 set nocursorcolumn      " ...or screen column...
-set colorcolumn=        " ...or margins (but see toggle_highlights.vim).
+"set colorcolumn=        " ...or margins (but see toggle_highlights.vim).
 
 set virtualedit=block   " Allow virtual editing when in Visual Block mode.
 
@@ -99,7 +99,7 @@ set wildmode=full
 " branch name, if there is one. (A non-empty statusline also gives
 " commands that append to it, like Syntastic, something to append to.)
 "
-set statusline=%<%f\ %((%{fugitive#head()})%)\ \ %h%m%r%=%-14.(%l,%c%V%)\ %P
+"set statusline=%<%f\ %((%{fugitive#head()})%)\ \ %h%m%r%=%-14.(%l,%c%V%)\ %P
 
 if has("win32")
     set grepprg=internal        " Windows findstr.exe just isn't good enough.
