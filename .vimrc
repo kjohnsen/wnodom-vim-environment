@@ -3,6 +3,9 @@
 " Configuration for both console and GUI Vim sessions.
 " (See .gvimrc for GUI-specific configuration.)
 "
+"
+" youcompleteme
+" ctags
 
 """
 """ My stuff
@@ -11,6 +14,7 @@
 :inoremap <F5> <ESC>:w<CR><c-z>
 :nnoremap <F7> :tabp<CR>
 :nnoremap <F8> :tabn<CR>
+:inoremap jj <ESC>
 
 
 """
