@@ -69,3 +69,6 @@
 [submodule "/Users/bodom/.vim/pack/wnodom/start/vim-devicons"]
 	path = /Users/bodom/.vim/pack/wnodom/start/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons
+[submodule "/home/kylej13/.vim/pack/wnodom/start/vimwiki"]
+	path = /home/kylej13/.vim/pack/wnodom/start/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
