@@ -43,10 +43,6 @@
 	path = pack/wnodom/start/surround
 	url = https://github.com/tpope/vim-surround.git
 	ignore = dirty
-[submodule "bundle/jshint"]
-	path = pack/wnodom/opt/jshint
-	url = https://github.com/wookiehangover/jshint.vim.git
-	ignore = dirty
 [submodule "bundle/less"]
 	path = pack/wnodom/opt/less
 	url = https://github.com/groenewege/vim-less
