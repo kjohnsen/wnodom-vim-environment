@@ -112,7 +112,7 @@ set wildmode=full
 " branch name, if there is one. (A non-empty statusline also gives
 " commands that append to it, like Syntastic, something to append to.)
 "
-set statusline=%<%f\ %((%{fugitive#head()})%)\ \ %h%m%r%=%-14.(%l,%c%V%)\ %P
+"set statusline=%<%f\ %((%{fugitive#head()})%)\ \ %h%m%r%=%-14.(%l,%c%V%)\ %P
 
 if has("win32")
     set grepprg=internal        " Windows findstr.exe just isn't good enough.
